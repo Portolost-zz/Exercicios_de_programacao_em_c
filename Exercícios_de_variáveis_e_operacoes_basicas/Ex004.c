@@ -1,6 +1,6 @@
 /***********************************************************
  *                                                         * 
- * Link do problema: https://neps.academy/br/exercise/212  *
+ *  Link do problema: https://neps.academy/br/exercise/85  *
  *                                                         *
  ***********************************************************/
 
@@ -8,7 +8,10 @@
 #include <stdio.h>
 
 int main(){
-	printf("Ola CodCad!\n");
-	return 0;
+	float A, B, D;
+	scanf("%f %f", &A, &B);
+	D = A / B;
+	printf("%.2f", D);
+	return 0;		
 }
 /***********************************************************/

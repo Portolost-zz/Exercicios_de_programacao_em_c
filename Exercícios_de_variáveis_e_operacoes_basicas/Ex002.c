@@ -1,6 +1,6 @@
 /***********************************************************
  *                                                         * 
- * Link do problema: https://neps.academy/br/exercise/212  *
+ *  Link do problema: https://neps.academy/br/exercise/138 *
  *                                                         *
  ***********************************************************/
 
@@ -8,7 +8,9 @@
 #include <stdio.h>
 
 int main(){
-	printf("Ola CodCad!\n");
+	int L;
+	scanf("%d", &L);
+	printf("%d", L * L);
 	return 0;
 }
 /***********************************************************/
